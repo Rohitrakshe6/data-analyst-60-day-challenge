@@ -1,0 +1,501 @@
+OrderID,CustomerID,CustomerName,Product,Category,Quantity,Price,TotalAmount,OrderDate,City,PaymentMethod,OrderStatus
+ORD00001,CUST1001,Customer 1,Headphones,Fashion,2,637,1274,2025-01-02,Mumbai,Credit Card,Shipped
+ORD00002,CUST1002,Customer 2,T-Shirt,Home,3,774,2322,2025-01-03,Delhi,Debit Card,Processing
+ORD00003,CUST1003,Customer 3,Shoes,Books,4,911,3644,2025-01-04,Bengaluru,Cash on Delivery,Cancelled
+ORD00004,CUST1004,Customer 4,Mixer,Sports,5,1048,5240,2025-01-05,Hyderabad,Net Banking,Delivered
+ORD00005,CUST1005,Customer 5,Novel,Beauty,1,1185,1185,2025-01-06,Chennai,UPI,Shipped
+ORD00006,CUST1006,Customer 6,Cricket Bat,Electronics,2,1322,2644,2025-01-07,Kolkata,Credit Card,Processing
+ORD00007,CUST1007,Customer 7,Face Wash,Fashion,3,1459,4377,2025-01-08,Ahmedabad,Debit Card,Cancelled
+ORD00008,CUST1008,Customer 8,Smartphone,Home,4,1596,6384,2025-01-09,Pune,Cash on Delivery,Delivered
+ORD00009,CUST1009,Customer 9,Watch,Books,5,1733,8665,2025-01-10,Mumbai,Net Banking,Shipped
+ORD00010,CUST1010,Customer 10,Laptop,Sports,1,1870,1870,2025-01-11,Delhi,UPI,Processing
+ORD00011,CUST1011,Customer 11,Headphones,Beauty,2,2007,4014,2025-01-12,Bengaluru,Credit Card,Cancelled
+ORD00012,CUST1012,Customer 12,T-Shirt,Electronics,3,2144,6432,2025-01-13,Hyderabad,Debit Card,Delivered
+ORD00013,CUST1013,Customer 13,Shoes,Fashion,4,2281,9124,2025-01-14,Chennai,Cash on Delivery,Shipped
+ORD00014,CUST1014,Customer 14,Mixer,Home,5,2418,12090,2025-01-15,Kolkata,Net Banking,Processing
+ORD00015,CUST1015,Customer 15,Novel,Books,1,2555,2555,2025-01-16,Ahmedabad,UPI,Cancelled
+ORD00016,CUST1016,Customer 16,Cricket Bat,Sports,2,2692,5384,2025-01-17,Pune,Credit Card,Delivered
+ORD00017,CUST1017,Customer 17,Face Wash,Beauty,3,2829,8487,2025-01-18,Mumbai,Debit Card,Shipped
+ORD00018,CUST1018,Customer 18,Smartphone,Electronics,4,2966,11864,2025-01-19,Delhi,Cash on Delivery,Processing
+ORD00019,CUST1019,Customer 19,Watch,Fashion,5,3103,15515,2025-01-20,Bengaluru,Net Banking,Cancelled
+ORD00020,CUST1020,Customer 20,Laptop,Home,1,3240,3240,2025-01-21,Hyderabad,UPI,Delivered
+ORD00021,CUST1021,Customer 21,Headphones,Books,2,3377,6754,2025-01-22,Chennai,Credit Card,Shipped
+ORD00022,CUST1022,Customer 22,T-Shirt,Sports,3,3514,10542,2025-01-23,Kolkata,Debit Card,Processing
+ORD00023,CUST1023,Customer 23,Shoes,Beauty,4,3651,14604,2025-01-24,Ahmedabad,Cash on Delivery,Cancelled
+ORD00024,CUST1024,Customer 24,Mixer,Electronics,5,3788,18940,2025-01-25,Pune,Net Banking,Delivered
+ORD00025,CUST1025,Customer 25,Novel,Fashion,1,3925,3925,2025-01-26,Mumbai,UPI,Shipped
+ORD00026,CUST1026,Customer 26,Cricket Bat,Home,2,4062,8124,2025-01-27,Delhi,Credit Card,Processing
+ORD00027,CUST1027,Customer 27,Face Wash,Books,3,4199,12597,2025-01-28,Bengaluru,Debit Card,Cancelled
+ORD00028,CUST1028,Customer 28,Smartphone,Sports,4,4336,17344,2025-01-29,Hyderabad,Cash on Delivery,Delivered
+ORD00029,CUST1029,Customer 29,Watch,Beauty,5,4473,22365,2025-01-30,Chennai,Net Banking,Shipped
+ORD00030,CUST1030,Customer 30,Laptop,Electronics,1,4610,4610,2025-01-31,Kolkata,UPI,Processing
+ORD00031,CUST1031,Customer 31,Headphones,Fashion,2,4747,9494,2025-02-01,Ahmedabad,Credit Card,Cancelled
+ORD00032,CUST1032,Customer 32,T-Shirt,Home,3,4884,14652,2025-02-02,Pune,Debit Card,Delivered
+ORD00033,CUST1033,Customer 33,Shoes,Books,4,521,2084,2025-02-03,Mumbai,Cash on Delivery,Shipped
+ORD00034,CUST1034,Customer 34,Mixer,Sports,5,658,3290,2025-02-04,Delhi,Net Banking,Processing
+ORD00035,CUST1035,Customer 35,Novel,Beauty,1,795,795,2025-02-05,Bengaluru,UPI,Cancelled
+ORD00036,CUST1036,Customer 36,Cricket Bat,Electronics,2,932,1864,2025-02-06,Hyderabad,Credit Card,Delivered
+ORD00037,CUST1037,Customer 37,Face Wash,Fashion,3,1069,3207,2025-02-07,Chennai,Debit Card,Shipped
+ORD00038,CUST1038,Customer 38,Smartphone,Home,4,1206,4824,2025-02-08,Kolkata,Cash on Delivery,Processing
+ORD00039,CUST1039,Customer 39,Watch,Books,5,1343,6715,2025-02-09,Ahmedabad,Net Banking,Cancelled
+ORD00040,CUST1040,Customer 40,Laptop,Sports,1,1480,1480,2025-02-10,Pune,UPI,Delivered
+ORD00041,CUST1041,Customer 41,Headphones,Beauty,2,1617,3234,2025-02-11,Mumbai,Credit Card,Shipped
+ORD00042,CUST1042,Customer 42,T-Shirt,Electronics,3,1754,5262,2025-02-12,Delhi,Debit Card,Processing
+ORD00043,CUST1043,Customer 43,Shoes,Fashion,4,1891,7564,2025-02-13,Bengaluru,Cash on Delivery,Cancelled
+ORD00044,CUST1044,Customer 44,Mixer,Home,5,2028,10140,2025-02-14,Hyderabad,Net Banking,Delivered
+ORD00045,CUST1045,Customer 45,Novel,Books,1,2165,2165,2025-02-15,Chennai,UPI,Shipped
+ORD00046,CUST1046,Customer 46,Cricket Bat,Sports,2,2302,4604,2025-02-16,Kolkata,Credit Card,Processing
+ORD00047,CUST1047,Customer 47,Face Wash,Beauty,3,2439,7317,2025-02-17,Ahmedabad,Debit Card,Cancelled
+ORD00048,CUST1048,Customer 48,Smartphone,Electronics,4,2576,10304,2025-02-18,Pune,Cash on Delivery,Delivered
+ORD00049,CUST1049,Customer 49,Watch,Fashion,5,2713,13565,2025-02-19,Mumbai,Net Banking,Shipped
+ORD00050,CUST1050,Customer 50,Laptop,Home,1,2850,2850,2025-02-20,Delhi,UPI,Processing
+ORD00051,CUST1051,Customer 51,Headphones,Books,2,2987,5974,2025-02-21,Bengaluru,Credit Card,Cancelled
+ORD00052,CUST1052,Customer 52,T-Shirt,Sports,3,3124,9372,2025-02-22,Hyderabad,Debit Card,Delivered
+ORD00053,CUST1053,Customer 53,Shoes,Beauty,4,3261,13044,2025-02-23,Chennai,Cash on Delivery,Shipped
+ORD00054,CUST1054,Customer 54,Mixer,Electronics,5,3398,16990,2025-02-24,Kolkata,Net Banking,Processing
+ORD00055,CUST1055,Customer 55,Novel,Fashion,1,3535,3535,2025-02-25,Ahmedabad,UPI,Cancelled
+ORD00056,CUST1056,Customer 56,Cricket Bat,Home,2,3672,7344,2025-02-26,Pune,Credit Card,Delivered
+ORD00057,CUST1057,Customer 57,Face Wash,Books,3,3809,11427,2025-02-27,Mumbai,Debit Card,Shipped
+ORD00058,CUST1058,Customer 58,Smartphone,Sports,4,3946,15784,2025-02-28,Delhi,Cash on Delivery,Processing
+ORD00059,CUST1059,Customer 59,Watch,Beauty,5,4083,20415,2025-03-01,Bengaluru,Net Banking,Cancelled
+ORD00060,CUST1060,Customer 60,Laptop,Electronics,1,4220,4220,2025-03-02,Hyderabad,UPI,Delivered
+ORD00061,CUST1061,Customer 61,Headphones,Fashion,2,4357,8714,2025-03-03,Chennai,Credit Card,Shipped
+ORD00062,CUST1062,Customer 62,T-Shirt,Home,3,4494,13482,2025-03-04,Kolkata,Debit Card,Processing
+ORD00063,CUST1063,Customer 63,Shoes,Books,4,4631,18524,2025-03-05,Ahmedabad,Cash on Delivery,Cancelled
+ORD00064,CUST1064,Customer 64,Mixer,Sports,5,4768,23840,2025-03-06,Pune,Net Banking,Delivered
+ORD00065,CUST1065,Customer 65,Novel,Beauty,1,4905,4905,2025-03-07,Mumbai,UPI,Shipped
+ORD00066,CUST1066,Customer 66,Cricket Bat,Electronics,2,542,1084,2025-03-08,Delhi,Credit Card,Processing
+ORD00067,CUST1067,Customer 67,Face Wash,Fashion,3,679,2037,2025-03-09,Bengaluru,Debit Card,Cancelled
+ORD00068,CUST1068,Customer 68,Smartphone,Home,4,816,3264,2025-03-10,Hyderabad,Cash on Delivery,Delivered
+ORD00069,CUST1069,Customer 69,Watch,Books,5,953,4765,2025-03-11,Chennai,Net Banking,Shipped
+ORD00070,CUST1070,Customer 70,Laptop,Sports,1,1090,1090,2025-03-12,Kolkata,UPI,Processing
+ORD00071,CUST1071,Customer 71,Headphones,Beauty,2,1227,2454,2025-03-13,Ahmedabad,Credit Card,Cancelled
+ORD00072,CUST1072,Customer 72,T-Shirt,Electronics,3,1364,4092,2025-03-14,Pune,Debit Card,Delivered
+ORD00073,CUST1073,Customer 73,Shoes,Fashion,4,1501,6004,2025-03-15,Mumbai,Cash on Delivery,Shipped
+ORD00074,CUST1074,Customer 74,Mixer,Home,5,1638,8190,2025-03-16,Delhi,Net Banking,Processing
+ORD00075,CUST1075,Customer 75,Novel,Books,1,1775,1775,2025-03-17,Bengaluru,UPI,Cancelled
+ORD00076,CUST1076,Customer 76,Cricket Bat,Sports,2,1912,3824,2025-03-18,Hyderabad,Credit Card,Delivered
+ORD00077,CUST1077,Customer 77,Face Wash,Beauty,3,2049,6147,2025-03-19,Chennai,Debit Card,Shipped
+ORD00078,CUST1078,Customer 78,Smartphone,Electronics,4,2186,8744,2025-03-20,Kolkata,Cash on Delivery,Processing
+ORD00079,CUST1079,Customer 79,Watch,Fashion,5,2323,11615,2025-03-21,Ahmedabad,Net Banking,Cancelled
+ORD00080,CUST1080,Customer 80,Laptop,Home,1,2460,2460,2025-03-22,Pune,UPI,Delivered
+ORD00081,CUST1081,Customer 81,Headphones,Books,2,2597,5194,2025-03-23,Mumbai,Credit Card,Shipped
+ORD00082,CUST1082,Customer 82,T-Shirt,Sports,3,2734,8202,2025-03-24,Delhi,Debit Card,Processing
+ORD00083,CUST1083,Customer 83,Shoes,Beauty,4,2871,11484,2025-03-25,Bengaluru,Cash on Delivery,Cancelled
+ORD00084,CUST1084,Customer 84,Mixer,Electronics,5,3008,15040,2025-03-26,Hyderabad,Net Banking,Delivered
+ORD00085,CUST1085,Customer 85,Novel,Fashion,1,3145,3145,2025-03-27,Chennai,UPI,Shipped
+ORD00086,CUST1086,Customer 86,Cricket Bat,Home,2,3282,6564,2025-03-28,Kolkata,Credit Card,Processing
+ORD00087,CUST1087,Customer 87,Face Wash,Books,3,3419,10257,2025-03-29,Ahmedabad,Debit Card,Cancelled
+ORD00088,CUST1088,Customer 88,Smartphone,Sports,4,3556,14224,2025-03-30,Pune,Cash on Delivery,Delivered
+ORD00089,CUST1089,Customer 89,Watch,Beauty,5,3693,18465,2025-03-31,Mumbai,Net Banking,Shipped
+ORD00090,CUST1090,Customer 90,Laptop,Electronics,1,3830,3830,2025-04-01,Delhi,UPI,Processing
+ORD00091,CUST1091,Customer 91,Headphones,Fashion,2,3967,7934,2025-04-02,Bengaluru,Credit Card,Cancelled
+ORD00092,CUST1092,Customer 92,T-Shirt,Home,3,4104,12312,2025-04-03,Hyderabad,Debit Card,Delivered
+ORD00093,CUST1093,Customer 93,Shoes,Books,4,4241,16964,2025-04-04,Chennai,Cash on Delivery,Shipped
+ORD00094,CUST1094,Customer 94,Mixer,Sports,5,4378,21890,2025-04-05,Kolkata,Net Banking,Processing
+ORD00095,CUST1095,Customer 95,Novel,Beauty,1,4515,4515,2025-04-06,Ahmedabad,UPI,Cancelled
+ORD00096,CUST1096,Customer 96,Cricket Bat,Electronics,2,4652,9304,2025-04-07,Pune,Credit Card,Delivered
+ORD00097,CUST1097,Customer 97,Face Wash,Fashion,3,4789,14367,2025-04-08,Mumbai,Debit Card,Shipped
+ORD00098,CUST1098,Customer 98,Smartphone,Home,4,4926,19704,2025-04-09,Delhi,Cash on Delivery,Processing
+ORD00099,CUST1099,Customer 99,Watch,Books,5,563,2815,2025-04-10,Bengaluru,Net Banking,Cancelled
+ORD00100,CUST1100,Customer 100,Laptop,Sports,1,700,700,2025-04-11,Hyderabad,UPI,Delivered
+ORD00101,CUST1101,Customer 101,Headphones,Beauty,2,837,1674,2025-04-12,Chennai,Credit Card,Shipped
+ORD00102,CUST1102,Customer 102,T-Shirt,Electronics,3,974,2922,2025-04-13,Kolkata,Debit Card,Processing
+ORD00103,CUST1103,Customer 103,Shoes,Fashion,4,1111,4444,2025-04-14,Ahmedabad,Cash on Delivery,Cancelled
+ORD00104,CUST1104,Customer 104,Mixer,Home,5,1248,6240,2025-04-15,Pune,Net Banking,Delivered
+ORD00105,CUST1105,Customer 105,Novel,Books,1,1385,1385,2025-04-16,Mumbai,UPI,Shipped
+ORD00106,CUST1106,Customer 106,Cricket Bat,Sports,2,1522,3044,2025-04-17,Delhi,Credit Card,Processing
+ORD00107,CUST1107,Customer 107,Face Wash,Beauty,3,1659,4977,2025-04-18,Bengaluru,Debit Card,Cancelled
+ORD00108,CUST1108,Customer 108,Smartphone,Electronics,4,1796,7184,2025-04-19,Hyderabad,Cash on Delivery,Delivered
+ORD00109,CUST1109,Customer 109,Watch,Fashion,5,1933,9665,2025-04-20,Chennai,Net Banking,Shipped
+ORD00110,CUST1110,Customer 110,Laptop,Home,1,2070,2070,2025-04-21,Kolkata,UPI,Processing
+ORD00111,CUST1111,Customer 111,Headphones,Books,2,2207,4414,2025-04-22,Ahmedabad,Credit Card,Cancelled
+ORD00112,CUST1112,Customer 112,T-Shirt,Sports,3,2344,7032,2025-04-23,Pune,Debit Card,Delivered
+ORD00113,CUST1113,Customer 113,Shoes,Beauty,4,2481,9924,2025-04-24,Mumbai,Cash on Delivery,Shipped
+ORD00114,CUST1114,Customer 114,Mixer,Electronics,5,2618,13090,2025-04-25,Delhi,Net Banking,Processing
+ORD00115,CUST1115,Customer 115,Novel,Fashion,1,2755,2755,2025-04-26,Bengaluru,UPI,Cancelled
+ORD00116,CUST1116,Customer 116,Cricket Bat,Home,2,2892,5784,2025-04-27,Hyderabad,Credit Card,Delivered
+ORD00117,CUST1117,Customer 117,Face Wash,Books,3,3029,9087,2025-04-28,Chennai,Debit Card,Shipped
+ORD00118,CUST1118,Customer 118,Smartphone,Sports,4,3166,12664,2025-04-29,Kolkata,Cash on Delivery,Processing
+ORD00119,CUST1119,Customer 119,Watch,Beauty,5,3303,16515,2025-04-30,Ahmedabad,Net Banking,Cancelled
+ORD00120,CUST1120,Customer 120,Laptop,Electronics,1,3440,3440,2025-05-01,Pune,UPI,Delivered
+ORD00121,CUST1121,Customer 121,Headphones,Fashion,2,3577,7154,2025-05-02,Mumbai,Credit Card,Shipped
+ORD00122,CUST1122,Customer 122,T-Shirt,Home,3,3714,11142,2025-05-03,Delhi,Debit Card,Processing
+ORD00123,CUST1123,Customer 123,Shoes,Books,4,3851,15404,2025-05-04,Bengaluru,Cash on Delivery,Cancelled
+ORD00124,CUST1124,Customer 124,Mixer,Sports,5,3988,19940,2025-05-05,Hyderabad,Net Banking,Delivered
+ORD00125,CUST1125,Customer 125,Novel,Beauty,1,4125,4125,2025-05-06,Chennai,UPI,Shipped
+ORD00126,CUST1126,Customer 126,Cricket Bat,Electronics,2,4262,8524,2025-05-07,Kolkata,Credit Card,Processing
+ORD00127,CUST1127,Customer 127,Face Wash,Fashion,3,4399,13197,2025-05-08,Ahmedabad,Debit Card,Cancelled
+ORD00128,CUST1128,Customer 128,Smartphone,Home,4,4536,18144,2025-05-09,Pune,Cash on Delivery,Delivered
+ORD00129,CUST1129,Customer 129,Watch,Books,5,4673,23365,2025-05-10,Mumbai,Net Banking,Shipped
+ORD00130,CUST1130,Customer 130,Laptop,Sports,1,4810,4810,2025-05-11,Delhi,UPI,Processing
+ORD00131,CUST1131,Customer 131,Headphones,Beauty,2,4947,9894,2025-05-12,Bengaluru,Credit Card,Cancelled
+ORD00132,CUST1132,Customer 132,T-Shirt,Electronics,3,584,1752,2025-05-13,Hyderabad,Debit Card,Delivered
+ORD00133,CUST1133,Customer 133,Shoes,Fashion,4,721,2884,2025-05-14,Chennai,Cash on Delivery,Shipped
+ORD00134,CUST1134,Customer 134,Mixer,Home,5,858,4290,2025-05-15,Kolkata,Net Banking,Processing
+ORD00135,CUST1135,Customer 135,Novel,Books,1,995,995,2025-05-16,Ahmedabad,UPI,Cancelled
+ORD00136,CUST1136,Customer 136,Cricket Bat,Sports,2,1132,2264,2025-05-17,Pune,Credit Card,Delivered
+ORD00137,CUST1137,Customer 137,Face Wash,Beauty,3,1269,3807,2025-05-18,Mumbai,Debit Card,Shipped
+ORD00138,CUST1138,Customer 138,Smartphone,Electronics,4,1406,5624,2025-05-19,Delhi,Cash on Delivery,Processing
+ORD00139,CUST1139,Customer 139,Watch,Fashion,5,1543,7715,2025-05-20,Bengaluru,Net Banking,Cancelled
+ORD00140,CUST1140,Customer 140,Laptop,Home,1,1680,1680,2025-05-21,Hyderabad,UPI,Delivered
+ORD00141,CUST1141,Customer 141,Headphones,Books,2,1817,3634,2025-05-22,Chennai,Credit Card,Shipped
+ORD00142,CUST1142,Customer 142,T-Shirt,Sports,3,1954,5862,2025-05-23,Kolkata,Debit Card,Processing
+ORD00143,CUST1143,Customer 143,Shoes,Beauty,4,2091,8364,2025-05-24,Ahmedabad,Cash on Delivery,Cancelled
+ORD00144,CUST1144,Customer 144,Mixer,Electronics,5,2228,11140,2025-05-25,Pune,Net Banking,Delivered
+ORD00145,CUST1145,Customer 145,Novel,Fashion,1,2365,2365,2025-05-26,Mumbai,UPI,Shipped
+ORD00146,CUST1146,Customer 146,Cricket Bat,Home,2,2502,5004,2025-05-27,Delhi,Credit Card,Processing
+ORD00147,CUST1147,Customer 147,Face Wash,Books,3,2639,7917,2025-05-28,Bengaluru,Debit Card,Cancelled
+ORD00148,CUST1148,Customer 148,Smartphone,Sports,4,2776,11104,2025-05-29,Hyderabad,Cash on Delivery,Delivered
+ORD00149,CUST1149,Customer 149,Watch,Beauty,5,2913,14565,2025-05-30,Chennai,Net Banking,Shipped
+ORD00150,CUST1150,Customer 150,Laptop,Electronics,1,3050,3050,2025-05-31,Kolkata,UPI,Processing
+ORD00151,CUST1151,Customer 151,Headphones,Fashion,2,3187,6374,2025-06-01,Ahmedabad,Credit Card,Cancelled
+ORD00152,CUST1152,Customer 152,T-Shirt,Home,3,3324,9972,2025-06-02,Pune,Debit Card,Delivered
+ORD00153,CUST1153,Customer 153,Shoes,Books,4,3461,13844,2025-06-03,Mumbai,Cash on Delivery,Shipped
+ORD00154,CUST1154,Customer 154,Mixer,Sports,5,3598,17990,2025-06-04,Delhi,Net Banking,Processing
+ORD00155,CUST1155,Customer 155,Novel,Beauty,1,3735,3735,2025-06-05,Bengaluru,UPI,Cancelled
+ORD00156,CUST1156,Customer 156,Cricket Bat,Electronics,2,3872,7744,2025-06-06,Hyderabad,Credit Card,Delivered
+ORD00157,CUST1157,Customer 157,Face Wash,Fashion,3,4009,12027,2025-06-07,Chennai,Debit Card,Shipped
+ORD00158,CUST1158,Customer 158,Smartphone,Home,4,4146,16584,2025-06-08,Kolkata,Cash on Delivery,Processing
+ORD00159,CUST1159,Customer 159,Watch,Books,5,4283,21415,2025-06-09,Ahmedabad,Net Banking,Cancelled
+ORD00160,CUST1160,Customer 160,Laptop,Sports,1,4420,4420,2025-06-10,Pune,UPI,Delivered
+ORD00161,CUST1161,Customer 161,Headphones,Beauty,2,4557,9114,2025-06-11,Mumbai,Credit Card,Shipped
+ORD00162,CUST1162,Customer 162,T-Shirt,Electronics,3,4694,14082,2025-06-12,Delhi,Debit Card,Processing
+ORD00163,CUST1163,Customer 163,Shoes,Fashion,4,4831,19324,2025-06-13,Bengaluru,Cash on Delivery,Cancelled
+ORD00164,CUST1164,Customer 164,Mixer,Home,5,4968,24840,2025-06-14,Hyderabad,Net Banking,Delivered
+ORD00165,CUST1165,Customer 165,Novel,Books,1,605,605,2025-06-15,Chennai,UPI,Shipped
+ORD00166,CUST1166,Customer 166,Cricket Bat,Sports,2,742,1484,2025-06-16,Kolkata,Credit Card,Processing
+ORD00167,CUST1167,Customer 167,Face Wash,Beauty,3,879,2637,2025-06-17,Ahmedabad,Debit Card,Cancelled
+ORD00168,CUST1168,Customer 168,Smartphone,Electronics,4,1016,4064,2025-06-18,Pune,Cash on Delivery,Delivered
+ORD00169,CUST1169,Customer 169,Watch,Fashion,5,1153,5765,2025-06-19,Mumbai,Net Banking,Shipped
+ORD00170,CUST1170,Customer 170,Laptop,Home,1,1290,1290,2025-06-20,Delhi,UPI,Processing
+ORD00171,CUST1171,Customer 171,Headphones,Books,2,1427,2854,2025-06-21,Bengaluru,Credit Card,Cancelled
+ORD00172,CUST1172,Customer 172,T-Shirt,Sports,3,1564,4692,2025-06-22,Hyderabad,Debit Card,Delivered
+ORD00173,CUST1173,Customer 173,Shoes,Beauty,4,1701,6804,2025-06-23,Chennai,Cash on Delivery,Shipped
+ORD00174,CUST1174,Customer 174,Mixer,Electronics,5,1838,9190,2025-06-24,Kolkata,Net Banking,Processing
+ORD00175,CUST1175,Customer 175,Novel,Fashion,1,1975,1975,2025-06-25,Ahmedabad,UPI,Cancelled
+ORD00176,CUST1176,Customer 176,Cricket Bat,Home,2,2112,4224,2025-06-26,Pune,Credit Card,Delivered
+ORD00177,CUST1177,Customer 177,Face Wash,Books,3,2249,6747,2025-06-27,Mumbai,Debit Card,Shipped
+ORD00178,CUST1178,Customer 178,Smartphone,Sports,4,2386,9544,2025-06-28,Delhi,Cash on Delivery,Processing
+ORD00179,CUST1179,Customer 179,Watch,Beauty,5,2523,12615,2025-06-29,Bengaluru,Net Banking,Cancelled
+ORD00180,CUST1180,Customer 180,Laptop,Electronics,1,2660,2660,2025-06-30,Hyderabad,UPI,Delivered
+ORD00181,CUST1181,Customer 181,Headphones,Fashion,2,2797,5594,2025-07-01,Chennai,Credit Card,Shipped
+ORD00182,CUST1182,Customer 182,T-Shirt,Home,3,2934,8802,2025-07-02,Kolkata,Debit Card,Processing
+ORD00183,CUST1183,Customer 183,Shoes,Books,4,3071,12284,2025-07-03,Ahmedabad,Cash on Delivery,Cancelled
+ORD00184,CUST1184,Customer 184,Mixer,Sports,5,3208,16040,2025-07-04,Pune,Net Banking,Delivered
+ORD00185,CUST1185,Customer 185,Novel,Beauty,1,3345,3345,2025-07-05,Mumbai,UPI,Shipped
+ORD00186,CUST1186,Customer 186,Cricket Bat,Electronics,2,3482,6964,2025-07-06,Delhi,Credit Card,Processing
+ORD00187,CUST1187,Customer 187,Face Wash,Fashion,3,3619,10857,2025-07-07,Bengaluru,Debit Card,Cancelled
+ORD00188,CUST1188,Customer 188,Smartphone,Home,4,3756,15024,2025-07-08,Hyderabad,Cash on Delivery,Delivered
+ORD00189,CUST1189,Customer 189,Watch,Books,5,3893,19465,2025-07-09,Chennai,Net Banking,Shipped
+ORD00190,CUST1190,Customer 190,Laptop,Sports,1,4030,4030,2025-07-10,Kolkata,UPI,Processing
+ORD00191,CUST1191,Customer 191,Headphones,Beauty,2,4167,8334,2025-07-11,Ahmedabad,Credit Card,Cancelled
+ORD00192,CUST1192,Customer 192,T-Shirt,Electronics,3,4304,12912,2025-07-12,Pune,Debit Card,Delivered
+ORD00193,CUST1193,Customer 193,Shoes,Fashion,4,4441,17764,2025-07-13,Mumbai,Cash on Delivery,Shipped
+ORD00194,CUST1194,Customer 194,Mixer,Home,5,4578,22890,2025-07-14,Delhi,Net Banking,Processing
+ORD00195,CUST1195,Customer 195,Novel,Books,1,4715,4715,2025-07-15,Bengaluru,UPI,Cancelled
+ORD00196,CUST1196,Customer 196,Cricket Bat,Sports,2,4852,9704,2025-07-16,Hyderabad,Credit Card,Delivered
+ORD00197,CUST1197,Customer 197,Face Wash,Beauty,3,4989,14967,2025-07-17,Chennai,Debit Card,Shipped
+ORD00198,CUST1198,Customer 198,Smartphone,Electronics,4,626,2504,2025-07-18,Kolkata,Cash on Delivery,Processing
+ORD00199,CUST1199,Customer 199,Watch,Fashion,5,763,3815,2025-07-19,Ahmedabad,Net Banking,Cancelled
+ORD00200,CUST1200,Customer 200,Laptop,Home,1,900,900,2025-07-20,Pune,UPI,Delivered
+ORD00201,CUST1201,Customer 201,Headphones,Books,2,1037,2074,2025-07-21,Mumbai,Credit Card,Shipped
+ORD00202,CUST1202,Customer 202,T-Shirt,Sports,3,1174,3522,2025-07-22,Delhi,Debit Card,Processing
+ORD00203,CUST1203,Customer 203,Shoes,Beauty,4,1311,5244,2025-07-23,Bengaluru,Cash on Delivery,Cancelled
+ORD00204,CUST1204,Customer 204,Mixer,Electronics,5,1448,7240,2025-07-24,Hyderabad,Net Banking,Delivered
+ORD00205,CUST1205,Customer 205,Novel,Fashion,1,1585,1585,2025-07-25,Chennai,UPI,Shipped
+ORD00206,CUST1206,Customer 206,Cricket Bat,Home,2,1722,3444,2025-07-26,Kolkata,Credit Card,Processing
+ORD00207,CUST1207,Customer 207,Face Wash,Books,3,1859,5577,2025-07-27,Ahmedabad,Debit Card,Cancelled
+ORD00208,CUST1208,Customer 208,Smartphone,Sports,4,1996,7984,2025-07-28,Pune,Cash on Delivery,Delivered
+ORD00209,CUST1209,Customer 209,Watch,Beauty,5,2133,10665,2025-07-29,Mumbai,Net Banking,Shipped
+ORD00210,CUST1210,Customer 210,Laptop,Electronics,1,2270,2270,2025-07-30,Delhi,UPI,Processing
+ORD00211,CUST1211,Customer 211,Headphones,Fashion,2,2407,4814,2025-07-31,Bengaluru,Credit Card,Cancelled
+ORD00212,CUST1212,Customer 212,T-Shirt,Home,3,2544,7632,2025-08-01,Hyderabad,Debit Card,Delivered
+ORD00213,CUST1213,Customer 213,Shoes,Books,4,2681,10724,2025-08-02,Chennai,Cash on Delivery,Shipped
+ORD00214,CUST1214,Customer 214,Mixer,Sports,5,2818,14090,2025-08-03,Kolkata,Net Banking,Processing
+ORD00215,CUST1215,Customer 215,Novel,Beauty,1,2955,2955,2025-08-04,Ahmedabad,UPI,Cancelled
+ORD00216,CUST1216,Customer 216,Cricket Bat,Electronics,2,3092,6184,2025-08-05,Pune,Credit Card,Delivered
+ORD00217,CUST1217,Customer 217,Face Wash,Fashion,3,3229,9687,2025-08-06,Mumbai,Debit Card,Shipped
+ORD00218,CUST1218,Customer 218,Smartphone,Home,4,3366,13464,2025-08-07,Delhi,Cash on Delivery,Processing
+ORD00219,CUST1219,Customer 219,Watch,Books,5,3503,17515,2025-08-08,Bengaluru,Net Banking,Cancelled
+ORD00220,CUST1220,Customer 220,Laptop,Sports,1,3640,3640,2025-08-09,Hyderabad,UPI,Delivered
+ORD00221,CUST1221,Customer 221,Headphones,Beauty,2,3777,7554,2025-08-10,Chennai,Credit Card,Shipped
+ORD00222,CUST1222,Customer 222,T-Shirt,Electronics,3,3914,11742,2025-08-11,Kolkata,Debit Card,Processing
+ORD00223,CUST1223,Customer 223,Shoes,Fashion,4,4051,16204,2025-08-12,Ahmedabad,Cash on Delivery,Cancelled
+ORD00224,CUST1224,Customer 224,Mixer,Home,5,4188,20940,2025-08-13,Pune,Net Banking,Delivered
+ORD00225,CUST1225,Customer 225,Novel,Books,1,4325,4325,2025-08-14,Mumbai,UPI,Shipped
+ORD00226,CUST1226,Customer 226,Cricket Bat,Sports,2,4462,8924,2025-08-15,Delhi,Credit Card,Processing
+ORD00227,CUST1227,Customer 227,Face Wash,Beauty,3,4599,13797,2025-08-16,Bengaluru,Debit Card,Cancelled
+ORD00228,CUST1228,Customer 228,Smartphone,Electronics,4,4736,18944,2025-08-17,Hyderabad,Cash on Delivery,Delivered
+ORD00229,CUST1229,Customer 229,Watch,Fashion,5,4873,24365,2025-08-18,Chennai,Net Banking,Shipped
+ORD00230,CUST1230,Customer 230,Laptop,Home,1,510,510,2025-08-19,Kolkata,UPI,Processing
+ORD00231,CUST1231,Customer 231,Headphones,Books,2,647,1294,2025-08-20,Ahmedabad,Credit Card,Cancelled
+ORD00232,CUST1232,Customer 232,T-Shirt,Sports,3,784,2352,2025-08-21,Pune,Debit Card,Delivered
+ORD00233,CUST1233,Customer 233,Shoes,Beauty,4,921,3684,2025-08-22,Mumbai,Cash on Delivery,Shipped
+ORD00234,CUST1234,Customer 234,Mixer,Electronics,5,1058,5290,2025-08-23,Delhi,Net Banking,Processing
+ORD00235,CUST1235,Customer 235,Novel,Fashion,1,1195,1195,2025-08-24,Bengaluru,UPI,Cancelled
+ORD00236,CUST1236,Customer 236,Cricket Bat,Home,2,1332,2664,2025-08-25,Hyderabad,Credit Card,Delivered
+ORD00237,CUST1237,Customer 237,Face Wash,Books,3,1469,4407,2025-08-26,Chennai,Debit Card,Shipped
+ORD00238,CUST1238,Customer 238,Smartphone,Sports,4,1606,6424,2025-08-27,Kolkata,Cash on Delivery,Processing
+ORD00239,CUST1239,Customer 239,Watch,Beauty,5,1743,8715,2025-08-28,Ahmedabad,Net Banking,Cancelled
+ORD00240,CUST1240,Customer 240,Laptop,Electronics,1,1880,1880,2025-08-29,Pune,UPI,Delivered
+ORD00241,CUST1241,Customer 241,Headphones,Fashion,2,2017,4034,2025-08-30,Mumbai,Credit Card,Shipped
+ORD00242,CUST1242,Customer 242,T-Shirt,Home,3,2154,6462,2025-08-31,Delhi,Debit Card,Processing
+ORD00243,CUST1243,Customer 243,Shoes,Books,4,2291,9164,2025-09-01,Bengaluru,Cash on Delivery,Cancelled
+ORD00244,CUST1244,Customer 244,Mixer,Sports,5,2428,12140,2025-09-02,Hyderabad,Net Banking,Delivered
+ORD00245,CUST1245,Customer 245,Novel,Beauty,1,2565,2565,2025-09-03,Chennai,UPI,Shipped
+ORD00246,CUST1246,Customer 246,Cricket Bat,Electronics,2,2702,5404,2025-09-04,Kolkata,Credit Card,Processing
+ORD00247,CUST1247,Customer 247,Face Wash,Fashion,3,2839,8517,2025-09-05,Ahmedabad,Debit Card,Cancelled
+ORD00248,CUST1248,Customer 248,Smartphone,Home,4,2976,11904,2025-09-06,Pune,Cash on Delivery,Delivered
+ORD00249,CUST1249,Customer 249,Watch,Books,5,3113,15565,2025-09-07,Mumbai,Net Banking,Shipped
+ORD00250,CUST1250,Customer 250,Laptop,Sports,1,3250,3250,2025-09-08,Delhi,UPI,Processing
+ORD00251,CUST1251,Customer 251,Headphones,Beauty,2,3387,6774,2025-09-09,Bengaluru,Credit Card,Cancelled
+ORD00252,CUST1252,Customer 252,T-Shirt,Electronics,3,3524,10572,2025-09-10,Hyderabad,Debit Card,Delivered
+ORD00253,CUST1253,Customer 253,Shoes,Fashion,4,3661,14644,2025-09-11,Chennai,Cash on Delivery,Shipped
+ORD00254,CUST1254,Customer 254,Mixer,Home,5,3798,18990,2025-09-12,Kolkata,Net Banking,Processing
+ORD00255,CUST1255,Customer 255,Novel,Books,1,3935,3935,2025-09-13,Ahmedabad,UPI,Cancelled
+ORD00256,CUST1256,Customer 256,Cricket Bat,Sports,2,4072,8144,2025-09-14,Pune,Credit Card,Delivered
+ORD00257,CUST1257,Customer 257,Face Wash,Beauty,3,4209,12627,2025-09-15,Mumbai,Debit Card,Shipped
+ORD00258,CUST1258,Customer 258,Smartphone,Electronics,4,4346,17384,2025-09-16,Delhi,Cash on Delivery,Processing
+ORD00259,CUST1259,Customer 259,Watch,Fashion,5,4483,22415,2025-09-17,Bengaluru,Net Banking,Cancelled
+ORD00260,CUST1260,Customer 260,Laptop,Home,1,4620,4620,2025-09-18,Hyderabad,UPI,Delivered
+ORD00261,CUST1261,Customer 261,Headphones,Books,2,4757,9514,2025-09-19,Chennai,Credit Card,Shipped
+ORD00262,CUST1262,Customer 262,T-Shirt,Sports,3,4894,14682,2025-09-20,Kolkata,Debit Card,Processing
+ORD00263,CUST1263,Customer 263,Shoes,Beauty,4,531,2124,2025-09-21,Ahmedabad,Cash on Delivery,Cancelled
+ORD00264,CUST1264,Customer 264,Mixer,Electronics,5,668,3340,2025-09-22,Pune,Net Banking,Delivered
+ORD00265,CUST1265,Customer 265,Novel,Fashion,1,805,805,2025-09-23,Mumbai,UPI,Shipped
+ORD00266,CUST1266,Customer 266,Cricket Bat,Home,2,942,1884,2025-09-24,Delhi,Credit Card,Processing
+ORD00267,CUST1267,Customer 267,Face Wash,Books,3,1079,3237,2025-09-25,Bengaluru,Debit Card,Cancelled
+ORD00268,CUST1268,Customer 268,Smartphone,Sports,4,1216,4864,2025-09-26,Hyderabad,Cash on Delivery,Delivered
+ORD00269,CUST1269,Customer 269,Watch,Beauty,5,1353,6765,2025-09-27,Chennai,Net Banking,Shipped
+ORD00270,CUST1270,Customer 270,Laptop,Electronics,1,1490,1490,2025-09-28,Kolkata,UPI,Processing
+ORD00271,CUST1271,Customer 271,Headphones,Fashion,2,1627,3254,2025-09-29,Ahmedabad,Credit Card,Cancelled
+ORD00272,CUST1272,Customer 272,T-Shirt,Home,3,1764,5292,2025-09-30,Pune,Debit Card,Delivered
+ORD00273,CUST1273,Customer 273,Shoes,Books,4,1901,7604,2025-10-01,Mumbai,Cash on Delivery,Shipped
+ORD00274,CUST1274,Customer 274,Mixer,Sports,5,2038,10190,2025-10-02,Delhi,Net Banking,Processing
+ORD00275,CUST1275,Customer 275,Novel,Beauty,1,2175,2175,2025-10-03,Bengaluru,UPI,Cancelled
+ORD00276,CUST1276,Customer 276,Cricket Bat,Electronics,2,2312,4624,2025-10-04,Hyderabad,Credit Card,Delivered
+ORD00277,CUST1277,Customer 277,Face Wash,Fashion,3,2449,7347,2025-10-05,Chennai,Debit Card,Shipped
+ORD00278,CUST1278,Customer 278,Smartphone,Home,4,2586,10344,2025-10-06,Kolkata,Cash on Delivery,Processing
+ORD00279,CUST1279,Customer 279,Watch,Books,5,2723,13615,2025-10-07,Ahmedabad,Net Banking,Cancelled
+ORD00280,CUST1280,Customer 280,Laptop,Sports,1,2860,2860,2025-10-08,Pune,UPI,Delivered
+ORD00281,CUST1281,Customer 281,Headphones,Beauty,2,2997,5994,2025-10-09,Mumbai,Credit Card,Shipped
+ORD00282,CUST1282,Customer 282,T-Shirt,Electronics,3,3134,9402,2025-10-10,Delhi,Debit Card,Processing
+ORD00283,CUST1283,Customer 283,Shoes,Fashion,4,3271,13084,2025-10-11,Bengaluru,Cash on Delivery,Cancelled
+ORD00284,CUST1284,Customer 284,Mixer,Home,5,3408,17040,2025-10-12,Hyderabad,Net Banking,Delivered
+ORD00285,CUST1285,Customer 285,Novel,Books,1,3545,3545,2025-10-13,Chennai,UPI,Shipped
+ORD00286,CUST1286,Customer 286,Cricket Bat,Sports,2,3682,7364,2025-10-14,Kolkata,Credit Card,Processing
+ORD00287,CUST1287,Customer 287,Face Wash,Beauty,3,3819,11457,2025-10-15,Ahmedabad,Debit Card,Cancelled
+ORD00288,CUST1288,Customer 288,Smartphone,Electronics,4,3956,15824,2025-10-16,Pune,Cash on Delivery,Delivered
+ORD00289,CUST1289,Customer 289,Watch,Fashion,5,4093,20465,2025-10-17,Mumbai,Net Banking,Shipped
+ORD00290,CUST1290,Customer 290,Laptop,Home,1,4230,4230,2025-10-18,Delhi,UPI,Processing
+ORD00291,CUST1291,Customer 291,Headphones,Books,2,4367,8734,2025-10-19,Bengaluru,Credit Card,Cancelled
+ORD00292,CUST1292,Customer 292,T-Shirt,Sports,3,4504,13512,2025-10-20,Hyderabad,Debit Card,Delivered
+ORD00293,CUST1293,Customer 293,Shoes,Beauty,4,4641,18564,2025-10-21,Chennai,Cash on Delivery,Shipped
+ORD00294,CUST1294,Customer 294,Mixer,Electronics,5,4778,23890,2025-10-22,Kolkata,Net Banking,Processing
+ORD00295,CUST1295,Customer 295,Novel,Fashion,1,4915,4915,2025-10-23,Ahmedabad,UPI,Cancelled
+ORD00296,CUST1296,Customer 296,Cricket Bat,Home,2,552,1104,2025-10-24,Pune,Credit Card,Delivered
+ORD00297,CUST1297,Customer 297,Face Wash,Books,3,689,2067,2025-10-25,Mumbai,Debit Card,Shipped
+ORD00298,CUST1298,Customer 298,Smartphone,Sports,4,826,3304,2025-10-26,Delhi,Cash on Delivery,Processing
+ORD00299,CUST1299,Customer 299,Watch,Beauty,5,963,4815,2025-10-27,Bengaluru,Net Banking,Cancelled
+ORD00300,CUST1300,Customer 300,Laptop,Electronics,1,1100,1100,2025-10-28,Hyderabad,UPI,Delivered
+ORD00301,CUST1301,Customer 301,Headphones,Fashion,2,1237,2474,2025-10-29,Chennai,Credit Card,Shipped
+ORD00302,CUST1302,Customer 302,T-Shirt,Home,3,1374,4122,2025-10-30,Kolkata,Debit Card,Processing
+ORD00303,CUST1303,Customer 303,Shoes,Books,4,1511,6044,2025-10-31,Ahmedabad,Cash on Delivery,Cancelled
+ORD00304,CUST1304,Customer 304,Mixer,Sports,5,1648,8240,2025-11-01,Pune,Net Banking,Delivered
+ORD00305,CUST1305,Customer 305,Novel,Beauty,1,1785,1785,2025-11-02,Mumbai,UPI,Shipped
+ORD00306,CUST1306,Customer 306,Cricket Bat,Electronics,2,1922,3844,2025-11-03,Delhi,Credit Card,Processing
+ORD00307,CUST1307,Customer 307,Face Wash,Fashion,3,2059,6177,2025-11-04,Bengaluru,Debit Card,Cancelled
+ORD00308,CUST1308,Customer 308,Smartphone,Home,4,2196,8784,2025-11-05,Hyderabad,Cash on Delivery,Delivered
+ORD00309,CUST1309,Customer 309,Watch,Books,5,2333,11665,2025-11-06,Chennai,Net Banking,Shipped
+ORD00310,CUST1310,Customer 310,Laptop,Sports,1,2470,2470,2025-11-07,Kolkata,UPI,Processing
+ORD00311,CUST1311,Customer 311,Headphones,Beauty,2,2607,5214,2025-11-08,Ahmedabad,Credit Card,Cancelled
+ORD00312,CUST1312,Customer 312,T-Shirt,Electronics,3,2744,8232,2025-11-09,Pune,Debit Card,Delivered
+ORD00313,CUST1313,Customer 313,Shoes,Fashion,4,2881,11524,2025-11-10,Mumbai,Cash on Delivery,Shipped
+ORD00314,CUST1314,Customer 314,Mixer,Home,5,3018,15090,2025-11-11,Delhi,Net Banking,Processing
+ORD00315,CUST1315,Customer 315,Novel,Books,1,3155,3155,2025-11-12,Bengaluru,UPI,Cancelled
+ORD00316,CUST1316,Customer 316,Cricket Bat,Sports,2,3292,6584,2025-11-13,Hyderabad,Credit Card,Delivered
+ORD00317,CUST1317,Customer 317,Face Wash,Beauty,3,3429,10287,2025-11-14,Chennai,Debit Card,Shipped
+ORD00318,CUST1318,Customer 318,Smartphone,Electronics,4,3566,14264,2025-11-15,Kolkata,Cash on Delivery,Processing
+ORD00319,CUST1319,Customer 319,Watch,Fashion,5,3703,18515,2025-11-16,Ahmedabad,Net Banking,Cancelled
+ORD00320,CUST1320,Customer 320,Laptop,Home,1,3840,3840,2025-11-17,Pune,UPI,Delivered
+ORD00321,CUST1321,Customer 321,Headphones,Books,2,3977,7954,2025-11-18,Mumbai,Credit Card,Shipped
+ORD00322,CUST1322,Customer 322,T-Shirt,Sports,3,4114,12342,2025-11-19,Delhi,Debit Card,Processing
+ORD00323,CUST1323,Customer 323,Shoes,Beauty,4,4251,17004,2025-11-20,Bengaluru,Cash on Delivery,Cancelled
+ORD00324,CUST1324,Customer 324,Mixer,Electronics,5,4388,21940,2025-11-21,Hyderabad,Net Banking,Delivered
+ORD00325,CUST1325,Customer 325,Novel,Fashion,1,4525,4525,2025-11-22,Chennai,UPI,Shipped
+ORD00326,CUST1326,Customer 326,Cricket Bat,Home,2,4662,9324,2025-11-23,Kolkata,Credit Card,Processing
+ORD00327,CUST1327,Customer 327,Face Wash,Books,3,4799,14397,2025-11-24,Ahmedabad,Debit Card,Cancelled
+ORD00328,CUST1328,Customer 328,Smartphone,Sports,4,4936,19744,2025-11-25,Pune,Cash on Delivery,Delivered
+ORD00329,CUST1329,Customer 329,Watch,Beauty,5,573,2865,2025-11-26,Mumbai,Net Banking,Shipped
+ORD00330,CUST1330,Customer 330,Laptop,Electronics,1,710,710,2025-11-27,Delhi,UPI,Processing
+ORD00331,CUST1331,Customer 331,Headphones,Fashion,2,847,1694,2025-11-28,Bengaluru,Credit Card,Cancelled
+ORD00332,CUST1332,Customer 332,T-Shirt,Home,3,984,2952,2025-11-29,Hyderabad,Debit Card,Delivered
+ORD00333,CUST1333,Customer 333,Shoes,Books,4,1121,4484,2025-11-30,Chennai,Cash on Delivery,Shipped
+ORD00334,CUST1334,Customer 334,Mixer,Sports,5,1258,6290,2025-12-01,Kolkata,Net Banking,Processing
+ORD00335,CUST1335,Customer 335,Novel,Beauty,1,1395,1395,2025-12-02,Ahmedabad,UPI,Cancelled
+ORD00336,CUST1336,Customer 336,Cricket Bat,Electronics,2,1532,3064,2025-12-03,Pune,Credit Card,Delivered
+ORD00337,CUST1337,Customer 337,Face Wash,Fashion,3,1669,5007,2025-12-04,Mumbai,Debit Card,Shipped
+ORD00338,CUST1338,Customer 338,Smartphone,Home,4,1806,7224,2025-12-05,Delhi,Cash on Delivery,Processing
+ORD00339,CUST1339,Customer 339,Watch,Books,5,1943,9715,2025-12-06,Bengaluru,Net Banking,Cancelled
+ORD00340,CUST1340,Customer 340,Laptop,Sports,1,2080,2080,2025-12-07,Hyderabad,UPI,Delivered
+ORD00341,CUST1341,Customer 341,Headphones,Beauty,2,2217,4434,2025-12-08,Chennai,Credit Card,Shipped
+ORD00342,CUST1342,Customer 342,T-Shirt,Electronics,3,2354,7062,2025-12-09,Kolkata,Debit Card,Processing
+ORD00343,CUST1343,Customer 343,Shoes,Fashion,4,2491,9964,2025-12-10,Ahmedabad,Cash on Delivery,Cancelled
+ORD00344,CUST1344,Customer 344,Mixer,Home,5,2628,13140,2025-12-11,Pune,Net Banking,Delivered
+ORD00345,CUST1345,Customer 345,Novel,Books,1,2765,2765,2025-12-12,Mumbai,UPI,Shipped
+ORD00346,CUST1346,Customer 346,Cricket Bat,Sports,2,2902,5804,2025-12-13,Delhi,Credit Card,Processing
+ORD00347,CUST1347,Customer 347,Face Wash,Beauty,3,3039,9117,2025-12-14,Bengaluru,Debit Card,Cancelled
+ORD00348,CUST1348,Customer 348,Smartphone,Electronics,4,3176,12704,2025-12-15,Hyderabad,Cash on Delivery,Delivered
+ORD00349,CUST1349,Customer 349,Watch,Fashion,5,3313,16565,2025-12-16,Chennai,Net Banking,Shipped
+ORD00350,CUST1350,Customer 350,Laptop,Home,1,3450,3450,2025-12-17,Kolkata,UPI,Processing
+ORD00351,CUST1351,Customer 351,Headphones,Books,2,3587,7174,2025-12-18,Ahmedabad,Credit Card,Cancelled
+ORD00352,CUST1352,Customer 352,T-Shirt,Sports,3,3724,11172,2025-12-19,Pune,Debit Card,Delivered
+ORD00353,CUST1353,Customer 353,Shoes,Beauty,4,3861,15444,2025-12-20,Mumbai,Cash on Delivery,Shipped
+ORD00354,CUST1354,Customer 354,Mixer,Electronics,5,3998,19990,2025-12-21,Delhi,Net Banking,Processing
+ORD00355,CUST1355,Customer 355,Novel,Fashion,1,4135,4135,2025-12-22,Bengaluru,UPI,Cancelled
+ORD00356,CUST1356,Customer 356,Cricket Bat,Home,2,4272,8544,2025-12-23,Hyderabad,Credit Card,Delivered
+ORD00357,CUST1357,Customer 357,Face Wash,Books,3,4409,13227,2025-12-24,Chennai,Debit Card,Shipped
+ORD00358,CUST1358,Customer 358,Smartphone,Sports,4,4546,18184,2025-12-25,Kolkata,Cash on Delivery,Processing
+ORD00359,CUST1359,Customer 359,Watch,Beauty,5,4683,23415,2025-12-26,Ahmedabad,Net Banking,Cancelled
+ORD00360,CUST1360,Customer 360,Laptop,Electronics,1,4820,4820,2025-12-27,Pune,UPI,Delivered
+ORD00361,CUST1361,Customer 361,Headphones,Fashion,2,4957,9914,2025-12-28,Mumbai,Credit Card,Shipped
+ORD00362,CUST1362,Customer 362,T-Shirt,Home,3,594,1782,2025-12-29,Delhi,Debit Card,Processing
+ORD00363,CUST1363,Customer 363,Shoes,Books,4,731,2924,2025-12-30,Bengaluru,Cash on Delivery,Cancelled
+ORD00364,CUST1364,Customer 364,Mixer,Sports,5,868,4340,2025-12-31,Hyderabad,Net Banking,Delivered
+ORD00365,CUST1365,Customer 365,Novel,Beauty,1,1005,1005,2025-01-01,Chennai,UPI,Shipped
+ORD00366,CUST1366,Customer 366,Cricket Bat,Electronics,2,1142,2284,2025-01-02,Kolkata,Credit Card,Processing
+ORD00367,CUST1367,Customer 367,Face Wash,Fashion,3,1279,3837,2025-01-03,Ahmedabad,Debit Card,Cancelled
+ORD00368,CUST1368,Customer 368,Smartphone,Home,4,1416,5664,2025-01-04,Pune,Cash on Delivery,Delivered
+ORD00369,CUST1369,Customer 369,Watch,Books,5,1553,7765,2025-01-05,Mumbai,Net Banking,Shipped
+ORD00370,CUST1370,Customer 370,Laptop,Sports,1,1690,1690,2025-01-06,Delhi,UPI,Processing
+ORD00371,CUST1371,Customer 371,Headphones,Beauty,2,1827,3654,2025-01-07,Bengaluru,Credit Card,Cancelled
+ORD00372,CUST1372,Customer 372,T-Shirt,Electronics,3,1964,5892,2025-01-08,Hyderabad,Debit Card,Delivered
+ORD00373,CUST1373,Customer 373,Shoes,Fashion,4,2101,8404,2025-01-09,Chennai,Cash on Delivery,Shipped
+ORD00374,CUST1374,Customer 374,Mixer,Home,5,2238,11190,2025-01-10,Kolkata,Net Banking,Processing
+ORD00375,CUST1375,Customer 375,Novel,Books,1,2375,2375,2025-01-11,Ahmedabad,UPI,Cancelled
+ORD00376,CUST1376,Customer 376,Cricket Bat,Sports,2,2512,5024,2025-01-12,Pune,Credit Card,Delivered
+ORD00377,CUST1377,Customer 377,Face Wash,Beauty,3,2649,7947,2025-01-13,Mumbai,Debit Card,Shipped
+ORD00378,CUST1378,Customer 378,Smartphone,Electronics,4,2786,11144,2025-01-14,Delhi,Cash on Delivery,Processing
+ORD00379,CUST1379,Customer 379,Watch,Fashion,5,2923,14615,2025-01-15,Bengaluru,Net Banking,Cancelled
+ORD00380,CUST1380,Customer 380,Laptop,Home,1,3060,3060,2025-01-16,Hyderabad,UPI,Delivered
+ORD00381,CUST1381,Customer 381,Headphones,Books,2,3197,6394,2025-01-17,Chennai,Credit Card,Shipped
+ORD00382,CUST1382,Customer 382,T-Shirt,Sports,3,3334,10002,2025-01-18,Kolkata,Debit Card,Processing
+ORD00383,CUST1383,Customer 383,Shoes,Beauty,4,3471,13884,2025-01-19,Ahmedabad,Cash on Delivery,Cancelled
+ORD00384,CUST1384,Customer 384,Mixer,Electronics,5,3608,18040,2025-01-20,Pune,Net Banking,Delivered
+ORD00385,CUST1385,Customer 385,Novel,Fashion,1,3745,3745,2025-01-21,Mumbai,UPI,Shipped
+ORD00386,CUST1386,Customer 386,Cricket Bat,Home,2,3882,7764,2025-01-22,Delhi,Credit Card,Processing
+ORD00387,CUST1387,Customer 387,Face Wash,Books,3,4019,12057,2025-01-23,Bengaluru,Debit Card,Cancelled
+ORD00388,CUST1388,Customer 388,Smartphone,Sports,4,4156,16624,2025-01-24,Hyderabad,Cash on Delivery,Delivered
+ORD00389,CUST1389,Customer 389,Watch,Beauty,5,4293,21465,2025-01-25,Chennai,Net Banking,Shipped
+ORD00390,CUST1390,Customer 390,Laptop,Electronics,1,4430,4430,2025-01-26,Kolkata,UPI,Processing
+ORD00391,CUST1391,Customer 391,Headphones,Fashion,2,4567,9134,2025-01-27,Ahmedabad,Credit Card,Cancelled
+ORD00392,CUST1392,Customer 392,T-Shirt,Home,3,4704,14112,2025-01-28,Pune,Debit Card,Delivered
+ORD00393,CUST1393,Customer 393,Shoes,Books,4,4841,19364,2025-01-29,Mumbai,Cash on Delivery,Shipped
+ORD00394,CUST1394,Customer 394,Mixer,Sports,5,4978,24890,2025-01-30,Delhi,Net Banking,Processing
+ORD00395,CUST1395,Customer 395,Novel,Beauty,1,615,615,2025-01-31,Bengaluru,UPI,Cancelled
+ORD00396,CUST1396,Customer 396,Cricket Bat,Electronics,2,752,1504,2025-02-01,Hyderabad,Credit Card,Delivered
+ORD00397,CUST1397,Customer 397,Face Wash,Fashion,3,889,2667,2025-02-02,Chennai,Debit Card,Shipped
+ORD00398,CUST1398,Customer 398,Smartphone,Home,4,1026,4104,2025-02-03,Kolkata,Cash on Delivery,Processing
+ORD00399,CUST1399,Customer 399,Watch,Books,5,1163,5815,2025-02-04,Ahmedabad,Net Banking,Cancelled
+ORD00400,CUST1400,Customer 400,Laptop,Sports,1,1300,1300,2025-02-05,Pune,UPI,Delivered
+ORD00401,CUST1401,Customer 401,Headphones,Beauty,2,1437,2874,2025-02-06,Mumbai,Credit Card,Shipped
+ORD00402,CUST1402,Customer 402,T-Shirt,Electronics,3,1574,4722,2025-02-07,Delhi,Debit Card,Processing
+ORD00403,CUST1403,Customer 403,Shoes,Fashion,4,1711,6844,2025-02-08,Bengaluru,Cash on Delivery,Cancelled
+ORD00404,CUST1404,Customer 404,Mixer,Home,5,1848,9240,2025-02-09,Hyderabad,Net Banking,Delivered
+ORD00405,CUST1405,Customer 405,Novel,Books,1,1985,1985,2025-02-10,Chennai,UPI,Shipped
+ORD00406,CUST1406,Customer 406,Cricket Bat,Sports,2,2122,4244,2025-02-11,Kolkata,Credit Card,Processing
+ORD00407,CUST1407,Customer 407,Face Wash,Beauty,3,2259,6777,2025-02-12,Ahmedabad,Debit Card,Cancelled
+ORD00408,CUST1408,Customer 408,Smartphone,Electronics,4,2396,9584,2025-02-13,Pune,Cash on Delivery,Delivered
+ORD00409,CUST1409,Customer 409,Watch,Fashion,5,2533,12665,2025-02-14,Mumbai,Net Banking,Shipped
+ORD00410,CUST1410,Customer 410,Laptop,Home,1,2670,2670,2025-02-15,Delhi,UPI,Processing
+ORD00411,CUST1411,Customer 411,Headphones,Books,2,2807,5614,2025-02-16,Bengaluru,Credit Card,Cancelled
+ORD00412,CUST1412,Customer 412,T-Shirt,Sports,3,2944,8832,2025-02-17,Hyderabad,Debit Card,Delivered
+ORD00413,CUST1413,Customer 413,Shoes,Beauty,4,3081,12324,2025-02-18,Chennai,Cash on Delivery,Shipped
+ORD00414,CUST1414,Customer 414,Mixer,Electronics,5,3218,16090,2025-02-19,Kolkata,Net Banking,Processing
+ORD00415,CUST1415,Customer 415,Novel,Fashion,1,3355,3355,2025-02-20,Ahmedabad,UPI,Cancelled
+ORD00416,CUST1416,Customer 416,Cricket Bat,Home,2,3492,6984,2025-02-21,Pune,Credit Card,Delivered
+ORD00417,CUST1417,Customer 417,Face Wash,Books,3,3629,10887,2025-02-22,Mumbai,Debit Card,Shipped
+ORD00418,CUST1418,Customer 418,Smartphone,Sports,4,3766,15064,2025-02-23,Delhi,Cash on Delivery,Processing
+ORD00419,CUST1419,Customer 419,Watch,Beauty,5,3903,19515,2025-02-24,Bengaluru,Net Banking,Cancelled
+ORD00420,CUST1420,Customer 420,Laptop,Electronics,1,4040,4040,2025-02-25,Hyderabad,UPI,Delivered
+ORD00421,CUST1421,Customer 421,Headphones,Fashion,2,4177,8354,2025-02-26,Chennai,Credit Card,Shipped
+ORD00422,CUST1422,Customer 422,T-Shirt,Home,3,4314,12942,2025-02-27,Kolkata,Debit Card,Processing
+ORD00423,CUST1423,Customer 423,Shoes,Books,4,4451,17804,2025-02-28,Ahmedabad,Cash on Delivery,Cancelled
+ORD00424,CUST1424,Customer 424,Mixer,Sports,5,4588,22940,2025-03-01,Pune,Net Banking,Delivered
+ORD00425,CUST1425,Customer 425,Novel,Beauty,1,4725,4725,2025-03-02,Mumbai,UPI,Shipped
+ORD00426,CUST1426,Customer 426,Cricket Bat,Electronics,2,4862,9724,2025-03-03,Delhi,Credit Card,Processing
+ORD00427,CUST1427,Customer 427,Face Wash,Fashion,3,4999,14997,2025-03-04,Bengaluru,Debit Card,Cancelled
+ORD00428,CUST1428,Customer 428,Smartphone,Home,4,636,2544,2025-03-05,Hyderabad,Cash on Delivery,Delivered
+ORD00429,CUST1429,Customer 429,Watch,Books,5,773,3865,2025-03-06,Chennai,Net Banking,Shipped
+ORD00430,CUST1430,Customer 430,Laptop,Sports,1,910,910,2025-03-07,Kolkata,UPI,Processing
+ORD00431,CUST1431,Customer 431,Headphones,Beauty,2,1047,2094,2025-03-08,Ahmedabad,Credit Card,Cancelled
+ORD00432,CUST1432,Customer 432,T-Shirt,Electronics,3,1184,3552,2025-03-09,Pune,Debit Card,Delivered
+ORD00433,CUST1433,Customer 433,Shoes,Fashion,4,1321,5284,2025-03-10,Mumbai,Cash on Delivery,Shipped
+ORD00434,CUST1434,Customer 434,Mixer,Home,5,1458,7290,2025-03-11,Delhi,Net Banking,Processing
+ORD00435,CUST1435,Customer 435,Novel,Books,1,1595,1595,2025-03-12,Bengaluru,UPI,Cancelled
+ORD00436,CUST1436,Customer 436,Cricket Bat,Sports,2,1732,3464,2025-03-13,Hyderabad,Credit Card,Delivered
+ORD00437,CUST1437,Customer 437,Face Wash,Beauty,3,1869,5607,2025-03-14,Chennai,Debit Card,Shipped
+ORD00438,CUST1438,Customer 438,Smartphone,Electronics,4,2006,8024,2025-03-15,Kolkata,Cash on Delivery,Processing
+ORD00439,CUST1439,Customer 439,Watch,Fashion,5,2143,10715,2025-03-16,Ahmedabad,Net Banking,Cancelled
+ORD00440,CUST1440,Customer 440,Laptop,Home,1,2280,2280,2025-03-17,Pune,UPI,Delivered
+ORD00441,CUST1441,Customer 441,Headphones,Books,2,2417,4834,2025-03-18,Mumbai,Credit Card,Shipped
+ORD00442,CUST1442,Customer 442,T-Shirt,Sports,3,2554,7662,2025-03-19,Delhi,Debit Card,Processing
+ORD00443,CUST1443,Customer 443,Shoes,Beauty,4,2691,10764,2025-03-20,Bengaluru,Cash on Delivery,Cancelled
+ORD00444,CUST1444,Customer 444,Mixer,Electronics,5,2828,14140,2025-03-21,Hyderabad,Net Banking,Delivered
+ORD00445,CUST1445,Customer 445,Novel,Fashion,1,2965,2965,2025-03-22,Chennai,UPI,Shipped
+ORD00446,CUST1446,Customer 446,Cricket Bat,Home,2,3102,6204,2025-03-23,Kolkata,Credit Card,Processing
+ORD00447,CUST1447,Customer 447,Face Wash,Books,3,3239,9717,2025-03-24,Ahmedabad,Debit Card,Cancelled
+ORD00448,CUST1448,Customer 448,Smartphone,Sports,4,3376,13504,2025-03-25,Pune,Cash on Delivery,Delivered
+ORD00449,CUST1449,Customer 449,Watch,Beauty,5,3513,17565,2025-03-26,Mumbai,Net Banking,Shipped
+ORD00450,CUST1450,Customer 450,Laptop,Electronics,1,3650,3650,2025-03-27,Delhi,UPI,Processing
+ORD00451,CUST1451,Customer 451,Headphones,Fashion,2,3787,7574,2025-03-28,Bengaluru,Credit Card,Cancelled
+ORD00452,CUST1452,Customer 452,T-Shirt,Home,3,3924,11772,2025-03-29,Hyderabad,Debit Card,Delivered
+ORD00453,CUST1453,Customer 453,Shoes,Books,4,4061,16244,2025-03-30,Chennai,Cash on Delivery,Shipped
+ORD00454,CUST1454,Customer 454,Mixer,Sports,5,4198,20990,2025-03-31,Kolkata,Net Banking,Processing
+ORD00455,CUST1455,Customer 455,Novel,Beauty,1,4335,4335,2025-04-01,Ahmedabad,UPI,Cancelled
+ORD00456,CUST1456,Customer 456,Cricket Bat,Electronics,2,4472,8944,2025-04-02,Pune,Credit Card,Delivered
+ORD00457,CUST1457,Customer 457,Face Wash,Fashion,3,4609,13827,2025-04-03,Mumbai,Debit Card,Shipped
+ORD00458,CUST1458,Customer 458,Smartphone,Home,4,4746,18984,2025-04-04,Delhi,Cash on Delivery,Processing
+ORD00459,CUST1459,Customer 459,Watch,Books,5,4883,24415,2025-04-05,Bengaluru,Net Banking,Cancelled
+ORD00460,CUST1460,Customer 460,Laptop,Sports,1,520,520,2025-04-06,Hyderabad,UPI,Delivered
+ORD00461,CUST1461,Customer 461,Headphones,Beauty,2,657,1314,2025-04-07,Chennai,Credit Card,Shipped
+ORD00462,CUST1462,Customer 462,T-Shirt,Electronics,3,794,2382,2025-04-08,Kolkata,Debit Card,Processing
+ORD00463,CUST1463,Customer 463,Shoes,Fashion,4,931,3724,2025-04-09,Ahmedabad,Cash on Delivery,Cancelled
+ORD00464,CUST1464,Customer 464,Mixer,Home,5,1068,5340,2025-04-10,Pune,Net Banking,Delivered
+ORD00465,CUST1465,Customer 465,Novel,Books,1,1205,1205,2025-04-11,Mumbai,UPI,Shipped
+ORD00466,CUST1466,Customer 466,Cricket Bat,Sports,2,1342,2684,2025-04-12,Delhi,Credit Card,Processing
+ORD00467,CUST1467,Customer 467,Face Wash,Beauty,3,1479,4437,2025-04-13,Bengaluru,Debit Card,Cancelled
+ORD00468,CUST1468,Customer 468,Smartphone,Electronics,4,1616,6464,2025-04-14,Hyderabad,Cash on Delivery,Delivered
+ORD00469,CUST1469,Customer 469,Watch,Fashion,5,1753,8765,2025-04-15,Chennai,Net Banking,Shipped
+ORD00470,CUST1470,Customer 470,Laptop,Home,1,1890,1890,2025-04-16,Kolkata,UPI,Processing
+ORD00471,CUST1471,Customer 471,Headphones,Books,2,2027,4054,2025-04-17,Ahmedabad,Credit Card,Cancelled
+ORD00472,CUST1472,Customer 472,T-Shirt,Sports,3,2164,6492,2025-04-18,Pune,Debit Card,Delivered
+ORD00473,CUST1473,Customer 473,Shoes,Beauty,4,2301,9204,2025-04-19,Mumbai,Cash on Delivery,Shipped
+ORD00474,CUST1474,Customer 474,Mixer,Electronics,5,2438,12190,2025-04-20,Delhi,Net Banking,Processing
+ORD00475,CUST1475,Customer 475,Novel,Fashion,1,2575,2575,2025-04-21,Bengaluru,UPI,Cancelled
+ORD00476,CUST1476,Customer 476,Cricket Bat,Home,2,2712,5424,2025-04-22,Hyderabad,Credit Card,Delivered
+ORD00477,CUST1477,Customer 477,Face Wash,Books,3,2849,8547,2025-04-23,Chennai,Debit Card,Shipped
+ORD00478,CUST1478,Customer 478,Smartphone,Sports,4,2986,11944,2025-04-24,Kolkata,Cash on Delivery,Processing
+ORD00479,CUST1479,Customer 479,Watch,Beauty,5,3123,15615,2025-04-25,Ahmedabad,Net Banking,Cancelled
+ORD00480,CUST1480,Customer 480,Laptop,Electronics,1,3260,3260,2025-04-26,Pune,UPI,Delivered
+ORD00481,CUST1481,Customer 481,Headphones,Fashion,2,3397,6794,2025-04-27,Mumbai,Credit Card,Shipped
+ORD00482,CUST1482,Customer 482,T-Shirt,Home,3,3534,10602,2025-04-28,Delhi,Debit Card,Processing
+ORD00483,CUST1483,Customer 483,Shoes,Books,4,3671,14684,2025-04-29,Bengaluru,Cash on Delivery,Cancelled
+ORD00484,CUST1484,Customer 484,Mixer,Sports,5,3808,19040,2025-04-30,Hyderabad,Net Banking,Delivered
+ORD00485,CUST1485,Customer 485,Novel,Beauty,1,3945,3945,2025-05-01,Chennai,UPI,Shipped
+ORD00486,CUST1486,Customer 486,Cricket Bat,Electronics,2,4082,8164,2025-05-02,Kolkata,Credit Card,Processing
+ORD00487,CUST1487,Customer 487,Face Wash,Fashion,3,4219,12657,2025-05-03,Ahmedabad,Debit Card,Cancelled
+ORD00488,CUST1488,Customer 488,Smartphone,Home,4,4356,17424,2025-05-04,Pune,Cash on Delivery,Delivered
+ORD00489,CUST1489,Customer 489,Watch,Books,5,4493,22465,2025-05-05,Mumbai,Net Banking,Shipped
+ORD00490,CUST1490,Customer 490,Laptop,Sports,1,4630,4630,2025-05-06,Delhi,UPI,Processing
+ORD00491,CUST1491,Customer 491,Headphones,Beauty,2,4767,9534,2025-05-07,Bengaluru,Credit Card,Cancelled
+ORD00492,CUST1492,Customer 492,T-Shirt,Electronics,3,4904,14712,2025-05-08,Hyderabad,Debit Card,Delivered
+ORD00493,CUST1493,Customer 493,Shoes,Fashion,4,541,2164,2025-05-09,Chennai,Cash on Delivery,Shipped
+ORD00494,CUST1494,Customer 494,Mixer,Home,5,678,3390,2025-05-10,Kolkata,Net Banking,Processing
+ORD00495,CUST1495,Customer 495,Novel,Books,1,815,815,2025-05-11,Ahmedabad,UPI,Cancelled
+ORD00496,CUST1496,Customer 496,Cricket Bat,Sports,2,952,1904,2025-05-12,Pune,Credit Card,Delivered
+ORD00497,CUST1497,Customer 497,Face Wash,Beauty,3,1089,3267,2025-05-13,Mumbai,Debit Card,Shipped
+ORD00498,CUST1498,Customer 498,Smartphone,Electronics,4,1226,4904,2025-05-14,Delhi,Cash on Delivery,Processing
+ORD00499,CUST1499,Customer 499,Watch,Fashion,5,1363,6815,2025-05-15,Bengaluru,Net Banking,Cancelled
+ORD00500,CUST1500,Customer 500,Laptop,Home,1,1500,1500,2025-05-16,Hyderabad,UPI,Delivered

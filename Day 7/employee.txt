@@ -1,0 +1,3 @@
+Rohit,1001,950000,Pune
+  Vaishu,1002,100000,Pune
+Ganesh,1003,900000,Jalna
