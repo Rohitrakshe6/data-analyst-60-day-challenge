@@ -1,0 +1,130 @@
+-- Q2: Create a database named 'company' using CREATE DATABASE.
+
+create database company;
+show databases;
+
+use company;
+
+-- Q3: Create an Employee table with columns EmpID, Name, Department, City, Salary 
+
+create table employee(
+	Emp_ID int,
+    Name varchar(20),
+    Department varchar(30),
+    City varchar(30),
+    Salary decimal(15,2)
+    
+    );
+    
+    show tables;
+    
+    describe employee;
+    
+-- Q4: Insert 10 sample rows into the Employee table using INSERT INTO.
+
+use company;
+insert into employee (Emp_ID, Name, Department, City, Salary)
+VALUES
+(101, 'Amit Sharma', 'IT', 'Pune', 65000),
+(102, 'Priya Patel', 'HR', 'Mumbai', 50000),
+(103, 'Rahul Verma', 'Finance', 'Delhi', 72000),
+(104, 'Sneha Joshi', 'Marketing', 'Pune', 58000),
+(105, 'Vikram Singh', 'IT', 'Bangalore', 80000),
+(106, 'Neha Gupta', 'HR', 'Hyderabad', 52000),
+(107, 'Arjun Mehta', 'Finance', 'Mumbai', 69000),
+(108, 'Kavita Rao', 'Marketing', 'Chennai', 61000),
+(109, 'Rohan Desai', 'IT', 'Pune', 75000),
+(110, 'Anjali Kulkarni', 'Sales', 'Nagpur', 55000);
+
+select * from employee;
+
+-- Q5: Write a query to select all columns and all rows from Employee using SELECT *.
+
+select * from employee;
+
+-- Q6: Select only the Name and Salary columns from Employee.
+
+select Name,Salary from employee;
+
+
+-- Q7: Select all unique Department values from Employee using SELECT DISTINCT.
+
+select distinct Department
+from employee;
+
+
+-- Q8: Select all unique combinations of Department and City together.
+
+select distinct Department,City
+from employee;
+
+-- Q9: Select all unique City values where employees are based.
+
+select distinct City
+from employee;
+
+-- Q10: Count how many distinct departments exist using COUNT(DISTINCT Department).
+
+SELECT COUNT(DISTINCT Department) AS Total_Departments
+FROM employee;
+
+-- Q11: Select Name and Department, aliasing them as EmployeeName and Team using AS.
+
+SELECT Name AS EmployeeName,
+	Department AS Team
+    FROM employee;
+    
+-- Q12: Use DESCRIBE Employee to view the table's column structure.
+
+DESCRIBE employee;
+
+-- Q13: Select all columns from Employee but show only the first 5 rows using LIMIT.
+
+SELECT * 
+FROM employee 
+LIMIT 5;
+
+-- Q14: Create a Department table with DeptID and DeptName columns.
+
+CREATE TABLE Department1(
+	DeptID int,
+    DeptName varchar(20)
+);
+    
+show Tables;
+
+-- Q15: Select DISTINCT Salary values from Employee to check for repeated pay values
+
+SELECT DISTINCT Salary
+from employee;
+
+
+-- Q16: Add a calculated column to your SELECT: Salary * 12 AS AnnualSalary.
+
+SELECT Emp_ID,
+	Name,
+	Salary,
+	Salary * 12 AS Annual_Salary
+	FROM employee;
+    
+-- Q17: Add a new column Age to the Employee table using ALTER TABLE.
+
+ALTER TABLE employee
+ADD Age int;
+
+select * from employee;
+
+-- Q18: Update every row to set a default Age value using UPDATE ... SET.
+
+UPDATE employee
+SET Age = 25;
+
+-- Q19: Select DISTINCT City values and manually note how many employees are in each.
+
+SELECT DISTINCT City
+FROM employee;
+
+-- Q20: Write one query combining SELECT and DISTINCT to list every unique Department, in the order MySQL returns them. 
+
+SELECT DISTINCT Department 
+FROM employee;
